@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    body{
+        background-image: url(adaduki.jpg!d);
+        background-size: auto;
+        background-position: center; /**bottom | right | left | top**/;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #menu-bar{
+        background-color: cornsilk;
+        text-align: center;
+    }
+    
+    #menu-bar ul{
+        display: inline-flex;
+    }
+    
+    #menu-bar ul li {
+        padding: 15px;
+        white-space: 15px;
+        list-style: none;
+    }
+    #menu-bar ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    #menu-bar ul li:hover{
+        background-color: aquamarine;
+        border-radius: 20px;
+    }
